@@ -1,0 +1,24 @@
+﻿@model MSF_ADI.Models.Bpkb
+
+@{
+    ViewData["Title"] = "Create BPKB";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="AgreementNumber"></label>
+        <input asp-for="AgreementNumber" class="form-control" />
+        <span asp-validation-for="AgreementNumber" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="BpkbNo"></label>
+        <input asp-for="BpkbNo" class="form-control" />
+        <span asp-validation-for="BpkbNo" class="text-danger"></span>
+    </div>
+    <!-- Add other fields similarly -->
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
+
+<p>@ViewBag.Message</p>

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "WBnqpLoH4F9MTLGXAcUXhK/d4RmrN+zWFH3cAlGb6GU=",
+  "Source": "MSF_ADI",
+  "BasePath": "_content/MSF_ADI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
